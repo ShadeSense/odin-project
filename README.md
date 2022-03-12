@@ -1,1 +1,1 @@
-# odin-project
+# Projects made using Odin Project
