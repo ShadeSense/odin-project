@@ -64,7 +64,7 @@ body{
     font-size: 18px;
     color: #E5E7EB;
 }
-.btn-signup{
+#btn-header{
     background-color: #3882F6;
     width: 100px;
     height: 30px;
@@ -119,6 +119,7 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
+    margin-bottom: 30px;
 }
 .quote-blockquote{
     flex: 1;
@@ -130,4 +131,40 @@ body{
     flex-direction: column;
     text-align: center;
     margin-left: 300px;
+}
+
+/* Bottom Section */
+.bottom-section{
+    display: flex;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 700px;
+    border-radius: 8px;
+    vertical-align: center;
+    background-color: #3882F6;
+}
+.bottom-section.left{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.bottom-section-title{
+    margin: 0;
+    padding: 0;
+}
+#btn-bottom-section{
+    margin-left: auto;
+    margin-right: 50px;
+    margin-top: 20px;
+    background-color: #3882F6;
+    width: 150px;
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9FAF8;
+    border: 2px solid white;
+    border-radius: 8px;
 }
