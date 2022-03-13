@@ -116,6 +116,18 @@ body{
 
 /* Quote */
 .quote{
+    display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
+}
+.quote-blockquote{
     flex: 1;
+    flex-direction: column;
+    text-align: center;
+}
+.quote-author{
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 300px;
 }
