@@ -123,14 +123,17 @@ body{
 }
 .quote-blockquote{
     flex: 1;
+    font-size: 36px;
+    color: #1F2937;
     flex-direction: column;
     text-align: center;
 }
 .quote-author{
     flex: 1;
+    FONT-SIZE: 24px;
     flex-direction: column;
     text-align: center;
-    margin-left: 300px;
+    margin-left: 700px;
 }
 
 /* Bottom Section */
@@ -151,13 +154,19 @@ body{
     margin-left: 50px;
 }
 .bottom-section-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
     margin: 0;
     padding: 0;
+}
+.bottom-section-subtext{
+    color: #F9FAF8;
 }
 #btn-bottom-section{
     margin-left: auto;
     margin-right: 50px;
-    margin-top: 20px;
+    margin-top: 40px;
     background-color: #3882F6;
     width: 150px;
     height: 30px;
@@ -167,4 +176,13 @@ body{
     color: #F9FAF8;
     border: 2px solid white;
     border-radius: 8px;
+}
+
+/*Footer*/
+.footer{
+    margin-top: 30px;
+    text-align: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 24px;
 }
