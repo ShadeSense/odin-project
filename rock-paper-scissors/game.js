@@ -10,13 +10,13 @@ function playerSelection(){
     const options = ["ROCK", "PAPER", "SCISSORS"];
     let pos = prompt("Choose: 'Rock', 'Paper', or 'Scissors'");
     pos = pos.toUpperCase();
-    let valid = False;
+    var valid = new Boolean(false);
     for(let i = 0; i < 3; i++){
         if(options[i] == pos){
-            valid = True;
+            valid = true;
         }
     }
-    return((valid==True) ? pos : console.log("Invalid selection"));
+    return((valid==true) ? pos : console.log("Invalid selection"));
 }
 
 /* Plays a round of rock, paper, scissors */
