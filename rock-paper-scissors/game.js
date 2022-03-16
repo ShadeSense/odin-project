@@ -1,8 +1,8 @@
 /* Gets a number 0 - 2 and picks a random hand */
 function computerPlay(){
     const options = ["ROCK", "PAPER", "SCISSORS"];
-    let pos = Math.random() * 3;
-    return options[pos];
+    let pos = options[Math.floor(Math.random() * 3)];
+    return pos;
 }
 
 /* Gets player's selection and checks if valid */
@@ -53,11 +53,11 @@ function playRound(player, computer){
     }
 
     if(winner == computer){
-        console.log("You lost:" + computer + " beats" + player + "!");
+        console.log("You lost: " + computer + " beats " + player + "!");
         return "computer";
     }
     else{
-        console.log("You won:" + player + " beats" + computer + "!");
+        console.log("You won: " + player + " beats " + computer + "!");
         return "player";
     }
 }
@@ -81,10 +81,10 @@ function game(){
             continue;
         }
 
-        console.log("Round " + i + ": Computer: " + compTotal + "| Player: " + playerTotal);
+        console.log("Round " + (i + 1) + ": Computer: " + compTotal + " | Player: " + playTotal);
     }
 
-    if(compTotal > playerTotal){
+    if(compTotal > playTotal){
         console.log("Computer wins!");
     }
     else{
